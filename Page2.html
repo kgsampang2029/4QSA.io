@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Shop - Les chèvres</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <header>
+        <a href="Page1.html" class="logo">Les chèvres</a>
+        <nav>
+            <a href="Page1.html">ABOUT THE COMPANY</a>
+            <a href="Page2.html">SHOPPING</a>
+        </nav>
+        <div class="right">
+            <a href="#">4Q SA</a>
+        </div>
+    </header>
+
+    <main class="shop-container">
+        <h1>OUR CATALOG</h1>
+
+        <section class="category">
+            <h2>01. WOMEN'S COLLECTION</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/e3/f5/de/e3f5dedcdc2ed87aab935e8862d0d651.jpg" alt="Sleeveless Blouse">
+                    <div class="product-info">
+                        <p class="name">Sleeveless Blouse</p>
+                        <p class="price">Php 1470.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Sleeveless Blouse', '1470.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/236x/15/8b/6b/158b6b0f9d523036bcfeeffc740a0e5d.jpg" alt="High Rise Trousers">
+                    <div class="product-info">
+                        <p class="name">High Rise Trousers</p>
+                        <p class="price">Php 1800.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('High Rise Trousers', '1800.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/736x/45/f7/d4/45f7d4a239b03e3b4a01804d56f2d988.jpg" alt="Midi Skirt">
+                    <div class="product-info">
+                        <p class="name">Midi Skirt</p>
+                        <p class="price">Php 1750.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Midi Skirt', '1750.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/f6/cb/e6/f6cbe62183c87970d626b02eb7c18a15.jpg" alt="White Dress">
+                    <div class="product-info">
+                        <p class="name">White Dress</p>
+                        <p class="price">Php 2120.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('White Dress', '2120.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://radiantgrp.com/cdn/shop/files/5d9cabbdf6341322538840279f0df4b6.jpg?v=1768906347&width=990" alt="Buttoned Cardigan">
+                    <div class="product-info">
+                        <p class="name">Buttoned Cardigan</p>
+                        <p class="price">Php 1880.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Buttoned Cardigan', '1880.00')">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="category">
+            <h2>02. MEN'S COLLECTION</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/j/26/7e1ea4ce-f7f9-47f1-8b4c-4c17963f96f5.jpg" alt="Summer Polo">
+                    <div class="product-info">
+                        <p class="name">Summer Polo</p>
+                        <p class="price">Php 1200.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Summer Polo', '1200.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://img.fantaskycdn.com/0186e3aa882c7e31368dc6290cca81a1_2056x.jpeg" alt="Casual T-Shirt">
+                    <div class="product-info">
+                        <p class="name">Casual T-Shirt</p>
+                        <p class="price">Php 1700.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Casual T-Shirt', '1700.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/736x/62/25/5b/62255b1eb88332ed362e5087332fdf9c.jpg" alt="2 Piece Suit">
+                    <div class="product-info">
+                        <p class="name">2 Piece Suit</p>
+                        <p class="price">Php 3800.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('2 Piece Suit', '3800.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/a5/56/1d/a5561db95912e9f03fe06f972e4e0868.jpg" alt="Baggy Slacks">
+                    <div class="product-info">
+                        <p class="name">Baggy Slacks</p>
+                        <p class="price">Php 1550.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Baggy Slacks', '1550.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/736x/b9/43/b2/b943b29e659dee93a0096f1093d71de2.jpg" alt="Mid Rise Jeans">
+                    <div class="product-info">
+                        <p class="name">Mid Rise Jeans</p>
+                        <p class="price">Php 1940.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Mid Rise Jeans', '1940.00')">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="category">
+            <h2>03. UNISEX ESSENTIALS</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/0a/f6/14/0af614496f3a8152ab9826eeacfe1a5b.jpg" alt="Boxy Denim Jacket">
+                    <div class="product-info">
+                        <p class="name">Boxy Denim Jacket</p>
+                        <p class="price">Php 5500.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Boxy Denim Jacket', '5500.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/736x/a1/a5/ee/a1a5eec55398900987e8f5192541ab28.jpg" alt="Casual White Shirt">
+                    <div class="product-info">
+                        <p class="name">Casual White Shirt</p>
+                        <p class="price">Php 1099.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Casual White Shirt', '1099.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/736x/4b/70/53/4b7053ce171cb1ca2bab2acf8b721e82.jpg" alt="Oversized Hoodie">
+                    <div class="product-info">
+                        <p class="name">Oversized Hoodie</p>
+                        <p class="price">Php 2670.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Oversized Hoodie', '2670.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/736x/51/7b/dc/517bdc13f1dfa61b64f95e94cba0e717.jpg" alt="Short Sleeve Polo">
+                    <div class="product-info">
+                        <p class="name">Short Sleeve Polo</p>
+                        <p class="price">Php 1320.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Short Sleeve Polo', '1320.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/6d/53/8a/6d538a4a57e8cd2fe0ad902f5f11384c.jpg" alt="Crop Sweatshirt">
+                    <div class="product-info">
+                        <p class="name">Crop Sweatshirt</p>
+                        <p class="price">Php 1650.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Crop Sweatshirt', '1650.00')">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="category">
+            <h2>04. ACCESSORIES</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://img.fantaskycdn.com/04347a142170b6ab9553d5ebf764ad71_750x.jpeg" alt="Gold Bracelet">
+                    <div class="product-info">
+                        <p class="name">Gold Bracelet</p>
+                        <p class="price">Php 1910.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Gold Bracelet', '1910.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/fd/46/df/fd46df74e8abbb1ef2af9bddc4d30328.jpg" alt="Blanket Scarf">
+                    <div class="product-info">
+                        <p class="name">Blanket Scarf</p>
+                        <p class="price">Php 2850.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Blanket Scarf', '2850.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/a4/15/61/a415617218dc5273f8c2260d905cecd0.jpg" alt="New York Yankees Hat">
+                    <div class="product-info">
+                        <p class="name">New York Yankees Hat</p>
+                        <p class="price">Php 2750.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('New York Yankees Hat', '2750.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/736x/00/02/30/000230bd3853c9a99955c9a51d2ed9e2.jpg" alt="Trader Joes Tote Bag">
+                    <div class="product-info">
+                        <p class="name">Trader Joes Tote Bag</p>
+                        <p class="price">Php 1570.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Trader Joes Tote Bag', '1570.00')">ADD TO CART</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/736x/ee/c3/6e/eec36ebdcbf065753dcb40173eb0fcdf.jpg" alt="Classic Sunglasses">
+                    <div class="product-info">
+                        <p class="name">Classic Sunglasses</p>
+                        <p class="price">Php 2900.00</p>
+                    </div>
+                    <button class="add-btn" type="button" onclick="addToCart('Classic Sunglasses', '2900.00')">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <hr style="border: 0.5px solid rgba(255,255,255,0.1); margin: 80px 0;">
+
+    <section class="cart-container">
+        <div class="cart-flex">
+            <div class="cart-list">
+                <h2 class="category-title">YOUR SELECTIONS</h2>
+                <div id="cart-items">
+                    <p style="color: #77778F; font-size: 12px; letter-spacing: 2px;">
+                        Your bag is currently empty.
+                    </p>
+                </div>
+                <div class="cart-total">
+                    <span>TOTAL:</span>
+                    <span id="total-price">PHP 0.00</span>
+                </div>
+            </div>
+
+            <div class="delivery-form">
+                <h2 class="category-title">DELIVERY DETAILS</h2>
+
+                <form id="checkout-form" action="http://52.74.133.173/cs3/checkout.php" method="POST">
+                    <input type="text" name="cust_name" placeholder="FULL NAME" required>
+                    <textarea name="cust_addr" placeholder="SHIPPING ADDRESS" rows="3" required></textarea>
+                    <input type="email" name="cust_email" placeholder="EMAIL ADDRESS" required>
+                    <input type="hidden" name="cust_order" id="cust_order">
+                    <input type="hidden" name="cust_total" id="cust_total">
+                    <button type="submit" class="place-order-btn">PLACE ORDER</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<script>
+var cust_order = [];
+
+function addToCart(name, price) {
+    var item = {
+        prod_name: name,
+        prod_price: price
+    };
+    cust_order.push(item);
+    updateCartUI();
+}
+
+function removeFromCart(index) {
+    cust_order.splice(index, 1);
+    updateCartUI();
+}
+
+function updateCartUI() {
+    var cartItems = document.getElementById("cart-items");
+    var totalPrice = document.getElementById("total-price");
+    var hiddenOrder = document.getElementById("cust_order");
+    var hiddenTotal = document.getElementById("cust_total");
+
+    var total = 0;
+    var output = "";
+    var i;
+
+    if (cust_order.length === 0) {
+        cartItems.innerHTML = '<p style="color:#77778F; font-size:12px;">Your bag is currently empty.</p>';
+        totalPrice.textContent = "PHP 0.00";
+        hiddenOrder.value = "";
+        hiddenTotal.value = "";
+        return;
+    }
+
+    for (i = 0; i < cust_order.length; i++) {
+        var item = cust_order[i];
+        var priceNumber = Number(item.prod_price);
+
+        if (isNaN(priceNumber)) {
+            priceNumber = 0;
+        }
+
+        total = total + priceNumber;
+
+        output = output +
+            '<div style="display:flex; justify-content:space-between; padding:10px 0;">' +
+                '<div>' +
+                    '<p style="margin:0;">' + item.prod_name + '</p>' +
+                    '<p style="margin:4px 0 0; font-size:11px;">' +
+                        'PHP ' + priceNumber.toFixed(2) +
+                    '</p>' +
+                '</div>' +
+                '<button type="button" onclick="removeFromCart(' + i + ')">REMOVE</button>' +
+            '</div>';
+    }
+
+    cartItems.innerHTML = output;
+    totalPrice.textContent = "PHP " + total.toFixed(2);
+    hiddenOrder.value = JSON.stringify(cust_order);    
+    hiddenTotal.value = total.toFixed(2);             
+}
+document.getElementById("checkout-form").onsubmit = function () {
+    var totalText = document.getElementById("total-price").textContent; 
+    var numericTotal = totalText.replace("PHP", "").trim();            
+
+    document.getElementById("cust_order").value = JSON.stringify(cust_order);
+    document.getElementById("cust_total").value = numericTotal;
+};
+</script>
+</body>
+</html>
